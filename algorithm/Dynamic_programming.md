@@ -9,16 +9,16 @@ ex) 4의 경우 fi(3)+fi(2) 밑에 중복되는 fi(2)와 fi(1)들이 생겨나�
 
 ##일반적인 재귀호출의 경우
 
-"""
+```
 int Fib(int n)
 {
     return n <= 1 ? n : Fib(n - 1) + Fib(n - 2);
 }
-"""
+```
 
 ##중복이 발생하지만 동적 계획을 사용한다면
 
-"""
+```
 int Fib(int n)
 {
   int f;
@@ -37,4 +37,4 @@ int Fib(int n)
   return f;
   
 }
-"""
+```
